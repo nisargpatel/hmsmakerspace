@@ -827,17 +827,18 @@ Showcase
 Screenshots Intro
 ========================================================================== */
 .screenshots-intro {
-    padding: 170px 0 100px 0;
+    padding: 80px 0 50px 0;
     background-color: #f6f7f9;
 }
 .screenshots-intro h1 {
     margin-bottom: 20px;
     color: #24374b;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 2em;
 }
 .screenshots-intro p {
     margin-bottom: 25px;
+    font-size: 1.5em;
     color: #778899;
 }
 
@@ -852,7 +853,7 @@ Screenshots
 .screenshots ul li {
     float: left;
     min-height: 100%;
-    width: 25%;
+    width: 20%;
     background-color: #000;
     list-style: none;
 }
@@ -878,14 +879,14 @@ Screenshots
     padding: 25% 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(63, 97, 132, 0.85);
+    background-color: rgba(63, 97, 132, 0.6);
     text-align: center;
     font-size: 15px;
     opacity: 0;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
-.screenshots figcaption a {
+.screenshots figcaption {
     color: #fff
 }
 .screenshots figcaption a:hover, .screenshots figcaption a:focus {
